@@ -16,10 +16,10 @@
       <img src="./resource/my portfolio.png" alt="welcome" />
       <nav>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Work</li>
-          <li>Contact</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
 
           <!-- <a href="">Home</a>
         <a href="">About</a> -->
@@ -43,7 +43,7 @@
     </header>
     <!--page main-->
     <main>
-      <section>
+      <section id="About">
         <h1>About us</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
@@ -52,46 +52,142 @@
           exercitationem repudiandae aliquid.
         </p>
         <iframe src="./gomycode.html" frameborder="0"></iframe>
-        <iframe src="https://www.youtube.com/embed/sMqAM6f9X_o" frameborder="0"></iframe>
-    <iframe src="./resource/my portfolio.png" frameborder="0"></iframe> 
+        <iframe
+          src="https://www.youtube.com/embed/sMqAM6f9X_o"
+          frameborder="0"
+        ></iframe>
+        <iframe src="./resource/my portfolio.png" frameborder="0"></iframe>
 
-    <!--vd balise-->
-    <video src="./resource/videoplayback.mp4" width="320"  controls></video>
-    </section>
-    <section>
-        <h2>
-            Work
-        </h2>
+        <!--vd balise-->
+        <video src="./resource/videoplayback.mp4" width="320" controls></video>
+      </section>
+      <section id="work">
+        <h2>Work</h2>
         <table border="1">
-            <tr>
-                <th>Web 1</th>
-                <th>Web 2</th>
-                <th>Web 3</th>
-            </tr>
-            <tr>
-                <td>Html</td>
-                <td>react JS</td>
-                <td>Node JS</td>
-            </tr>
-            <tr>
-                <td>css</td>
-                <td>redux</td>
-                <td>express Js</td>
-            </tr>
-            <tr>
-                <td>JS</td>
-                <td>API</td>
-                <td>Mongo DB</td>
-            </tr>
-            <tr>
-                <td>frond end</td>
-                <td>frond end</td>
-                <td> back end</td>
-            </tr>
+          <tr>
+            <th>Web 1</th>
+            <th>Web 2</th>
+            <th>Web 3</th>
+          </tr>
+          <tr>
+            <td>Html</td>
+            <td>react JS</td>
+            <td>Node JS</td>
+          </tr>
+          <tr>
+            <td>css</td>
+            <td>redux</td>
+            <td>express Js</td>
+          </tr>
+          <tr>
+            <td>JS</td>
+            <td>API</td>
+            <td>Mongo DB</td>
+          </tr>
+          <tr>
+            <td>frond end</td>
+            <td>frond end</td>
+            <td>back end</td>
+          </tr>
         </table>
-    </section>
+      </section>
+      <section id="contact">
+        <form>
+          <fieldset>
+            <legend>contact us</legend>
+            <div>
+              <label>Full name :</label>
+              <input type="text" placeholder="your name" required />
+            </div>
+            <br />
+            <div>
+              <label>birthdate :</label>
+              <input type="date" />
+            </div>
+            <br />
+            <div>
+              <label>Email :</label>
+              <input type="email" placeholder="exemple@gmail.com" />
+            </div>
+            <br />
+            <div>
+              <label>phone :</label>
+              <input
+                type="tel"
+                placeholder="+000-00-000-000"
+                pattern="[+]{1}[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{3}"
+              />
+            </div>
+            <br />
+            <div>
+              <label>password :</label>
+              <input type="password" placeholder="your password" />
+            </div>
+            <br />
+            <div>
+              <label>gender :</label>
+              <input type="radio" value="male" />
+              <label>male</label>
+              <input type="radio" value="female" />
+              <label>female</label>
+            </div>
+            <br />
+            <div>
+              <label>password :</label>
+              <input type="password" placeholder="your password" />
+            </div>
+            <br />
+            <div>
+              <label>status</label>
+              <select size="2">
+                <option>student</option>
+                <option>professional</option>
+                <option>job seeker</option>
+              </select>
+            </div>
+            <br />
+            <div>
+              <label>type of study</label>
+              <input list="std" />
+              <datalist id="std">
+                <option>bac</option>
+                <option>lisence</option>
+                <option>mastere</option>
+              </datalist>
+            </div>
+            <br />
+            <div>
+              <label>age</label>
+              <input type="range" />
+            </div>
+            <br />
+            <div>
+              <label>message :</label>
+              <textarea cols="3" rows="3"></textarea>
+            </div>
+            <br />
+
+            <input type="submit" value="envoyer" />
+            <input type="reset" />
+          </fieldset>
+        </form>
+      </section>
     </main>
     <!--page footer-->
-    <footer></footer>
+    <footer>
+      <h4>copy right grpf2</h4>
+      <h2>
+        <a href="mailto:manelalyani1993@gmail.com">manelalyani1993@gmail.com</a>
+      </h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.274077979426!2d8.787067319505343!3d34.41979265251529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f897d25b27db5d%3A0x1db0f8ca60018d37!2sGOMYCODE%20Gafsa!5e0!3m2!1sfr!2stn!4v1675854528108!5m2!1sfr!2stn"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </footer>
   </body>
 </html>
